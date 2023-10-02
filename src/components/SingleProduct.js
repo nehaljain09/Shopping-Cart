@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import { CartState } from "./context/Context";
+import { CartState } from "../context/Context";
 import Rating from "./Rating";
 
 export const SingleProduct = ({ prod }) => {
@@ -8,7 +8,6 @@ export const SingleProduct = ({ prod }) => {
     state: { cart },
     dispatch,
   } = CartState();
-  console.log(prod);
 
   return (
     <div className="products">
