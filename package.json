@@ -24,6 +24,7 @@
     "eject": "react-scripts eject"
   },
   "overrides": {
+    "autoprefixer": "10.4.5",
     "node-fetch": "^3.2.10",
     "nth-check": "^2.0.1",
     "got": "^12.1.0",
